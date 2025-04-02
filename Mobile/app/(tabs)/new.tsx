@@ -16,11 +16,11 @@ export default function HomeScreen() {
         />
       }>
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Seja bem vindo(a) a nosso site</ThemedText>
+        <ThemedText type="title">Página recém criada</ThemedText>
         <HelloWave/>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Qual o objetivo deste trabalho? </ThemedText>
+        <ThemedText type="subtitle">Algo</ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle">Subtitulo</ThemedText>
