@@ -54,7 +54,7 @@ export default function ModaoScreen() {
         </ThemedText>
       </Collapsible>
       <ThemedText>
-        Aqui embaixo está um trecho de uma música de Rock para você ouvir!
+        Aqui embaixo está um trecho de uma música de Modão para você ouvir!
       </ThemedText>
       <View>
         <iframe
