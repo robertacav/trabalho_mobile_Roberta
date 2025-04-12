@@ -56,9 +56,19 @@ export default function RockScreen() {
         </ThemedText>
       </Collapsible>
       <ThemedText>
-        Aqui embaixo está uma música desse estilo!
+        Aqui embaixo está um trecho de uma música de Rock para você ouvir!
       </ThemedText>
 
+      <View>
+        <iframe
+          src="https://open.spotify.com/embed/track/4veeNpXDK1YRHMTJ1Cppsg?utm_source=generator"
+          width="100%"
+          height="152"
+          frameBorder="0"
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+          loading="lazy"
+        ></iframe>
+      </View>
 
 
     </ParallaxScrollView>

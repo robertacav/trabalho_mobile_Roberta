@@ -1,4 +1,4 @@
-import { StyleSheet, Image } from 'react-native';
+import { StyleSheet, Image, View } from 'react-native';
 
 import ParallaxScrollView from '@/components/ParallaxScrollView';
 import { ThemedText } from '@/components/ThemedText';
@@ -53,6 +53,19 @@ export default function ModaoScreen() {
           Ele preserva tradições e valores que fazem parte da formação da cultura brasileira.
         </ThemedText>
       </Collapsible>
+      <ThemedText>
+        Aqui embaixo está um trecho de uma música de Rock para você ouvir!
+      </ThemedText>
+      <View>
+        <iframe
+          src="https://open.spotify.com/embed/track/0V2Q6MYSxQiSOM4WtLvJT4?utm_source=generator"
+          width="100%"
+          height="152"
+          frameBorder="0"
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+          loading="lazy"
+        ></iframe>
+      </View>
     </ParallaxScrollView>
   );
 }

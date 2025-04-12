@@ -1,4 +1,4 @@
-import { StyleSheet, Image } from 'react-native';
+import { StyleSheet, Image, View } from 'react-native';
 
 import ParallaxScrollView from '@/components/ParallaxScrollView';
 import { ThemedText } from '@/components/ThemedText';
@@ -53,6 +53,23 @@ export default function PopScreen() {
           o pop se mantém como um dos gêneros mais ouvidos no mundo.
         </ThemedText>
       </Collapsible>
+
+      <ThemedText>
+        Aqui embaixo está um trecho de uma música pop para você ouvir!
+      </ThemedText>
+
+      <View style={styles.musicContainer}>
+  <iframe
+    style={{ borderRadius: 12 }}
+    src="https://open.spotify.com/embed/track/4uLU6hMCjMI75M1A2tKUQC?utm_source=generator"
+    width="100%"
+    height="152"
+    frameBorder="0"
+    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+    loading="lazy"
+  ></iframe>
+</View>
+
     </ParallaxScrollView>
   );
 }
@@ -66,5 +83,10 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     gap: 8,
     marginBottom: 12,
+  },
+  musicContainer: {
+    marginTop: 20,
+    marginBottom: 20,
+    alignItems: 'center',
   },
 });

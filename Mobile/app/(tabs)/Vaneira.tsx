@@ -1,4 +1,4 @@
-import { StyleSheet, Image } from 'react-native';
+import { StyleSheet, Image, View } from 'react-native';
 
 import ParallaxScrollView from '@/components/ParallaxScrollView';
 import { ThemedText } from '@/components/ThemedText';
@@ -54,6 +54,20 @@ export default function VaneiraScreen() {
           É uma forma de manter viva a tradição e os costumes de uma região rica em história.
         </ThemedText>
       </Collapsible>
+            <ThemedText>
+                    Aqui embaixo está um trecho de uma música de Verneira para você ouvir!
+                  </ThemedText>
+                  
+                  <View>
+                    <iframe
+                      src="https://open.spotify.com/embed/track/3hH6CrVUDaThjtN384W0Xk?utm_source=generator"
+                      width="100%"
+                      height="152"
+                      frameBorder="0"
+                      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                      loading="lazy"
+                    ></iframe>
+                  </View>
     </ParallaxScrollView>
   );
 }

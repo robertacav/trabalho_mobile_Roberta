@@ -16,7 +16,7 @@ export default function HomeScreen() {
         />
       }>
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Seja bem vindo(a) a nosso site</ThemedText>
+        <ThemedText type="title">Seja bem vindo(a) ao nosso site</ThemedText>
         <HelloWave />
       </ThemedView>
       <ThemedText> A música está presente em todos os momentos da nossa vida. Ela pode animar, emocionar, trazer lembranças e até mudar o nosso humor.
