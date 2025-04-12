@@ -11,29 +11,35 @@ export default function HomeScreen() {
       headerBackgroundColor={{ light: '#A1CEDC', dark: '#1D3D47' }}
       headerImage={
         <Image
-        source={require('@/assets/images/partial-react-logo.png')}
-        style={styles.reactLogo}
+          source={require('@/assets/images/banner.jpg')}
+          style={styles.reactLogo}
         />
       }>
       <ThemedView style={styles.titleContainer}>
         <ThemedText type="title">Seja bem vindo(a) a nosso site</ThemedText>
-        <HelloWave/>
+        <HelloWave />
       </ThemedView>
+      <ThemedText> A música está presente em todos os momentos da nossa vida. Ela pode animar, emocionar, trazer lembranças e até mudar o nosso humor.
+        {'\n'}  Neste trabalho, vamos conhecer um pouco mais sobre quatro estilos musicais que marcaram e continuam marcando gerações: o Rock, o Pop, a Vaneira e o Modão.
+        {'\n'}   Vamos entender e nos aprofundar um pouco nos estilos musicais! </ThemedText>
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle">Qual o objetivo deste trabalho? </ThemedText>
       </ThemedView>
       <ThemedView>
-        texto 1
+        <ThemedText> Nosso objetivo é explorar e apresentar diferentes estilos musicais, mostrando a diversidade e riqueza da música que faz parte do nosso dia a dia.
+        </ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Vamos entender e nos aprofundar um pouco na culinária Brasileira</ThemedText>
+        <ThemedText type="subtitle">Vamos entender e nos aprofundar um pouco nos estilos musicais! </ThemedText>
+        <ThemedText> Esse trabalho terá abas diferentes para cada estilo musical falado e apresentado aqui!</ThemedText>
       </ThemedView>
       <ThemedView>
-        texto 2
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle">Como surgiu? </ThemedText>
-        
+        <ThemedText> Cada estilo surgiu em um contexto diferente, com influências culturais, sociais e até políticas.
+          {'\n'}  Eles foram evoluindo com o tempo e hoje fazem parte da identidade musical de muitas pessoas.
+        </ThemedText>
       </ThemedView>
     </ParallaxScrollView>
   );
@@ -46,14 +52,11 @@ const styles = StyleSheet.create({
     gap: 8,
   },
   stepContainer: {
-    gap: 8,
-    marginBottom: 8,
+    gap: 2,
   },
   reactLogo: {
-    height: 178,
-    width: 290,
-    bottom: 0,
-    left: 0,
-    position: 'absolute',
+    width: '100%',
+    height: '100%',
   },
+
 });
