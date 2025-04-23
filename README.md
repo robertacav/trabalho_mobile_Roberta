@@ -23,7 +23,7 @@ Um aplicativo React Native que explora diferentes estilos musicais brasileiros e
 - Características da música pop
 - Artistas internacionais e nacionais
 - Explicação sobre sua popularidade
-- Música exemplo embedada
+- Player Spotify integrado
 <img src="Mobile/assets/images/telapop.jpg" alt="Pop">
 
 
@@ -31,7 +31,7 @@ Um aplicativo React Native que explora diferentes estilos musicais brasileiros e
 - Ritmo tradicional gaúcho
 - Principais artistas do gênero
 - Instrumentos característicos
-- Player com música exemplo
+- Player Spotify integrado
 <img src="Mobile/assets/images/telavaneira.jpg" alt="Vaneira">
 
 
@@ -39,7 +39,7 @@ Um aplicativo React Native que explora diferentes estilos musicais brasileiros e
 - História do modão brasileiro
 - Duplas sertanejas tradicionais
 - Importância cultural
-- Trecho musical representativo
+- Player Spotify integrado
 <img src="Mobile/assets/images/telamodao.jpg" alt="Modão">
 
 
